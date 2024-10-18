@@ -125,18 +125,6 @@ Exotic options with early exercise features, like American-style options, requir
 
 - **LSM Algorithm**: Developed by Longstaff and Schwartz, it uses regression to estimate the continuation value at each exercise date, allowing for optimal exercise decisions during the simulation.
 
----
-
-**Challenges and Considerations**
-
-- **Computational Cost**: High-dimensional problems require significant computational resources.
-- **Convergence and Accuracy**: Ensure that the number of simulations and time steps are sufficient for desired precision.
-- **Discretization Error**: Smaller \( \Delta t \) reduces error but increases computational load.
-- **Model Calibration**: Accurate pricing depends on correctly estimating model parameters from market data.
-- **Risk Management**: Understanding the sensitivities (Greeks) of exotic options is crucial, which may require additional simulation techniques.
-
----
-
 **Conclusion**
 
 Monte Carlo simulation provides a flexible and robust framework for pricing exotic options by simulating the stochastic processes that govern asset prices. The theoretical foundation involves:
